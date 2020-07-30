@@ -1,7 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import { Button } from '@material-ui/core';
-import MyButton from './components/Button';
+// import MyButton from './components/Button';
+import CustomPaginationActionsTable from './components/Table';
+import ValidationTextFields from './components/SearchForm';
 import './App.css';
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
         >
           Learn React
         </a> */}
-        <MyButton label='Hello'/>
+        <ValidationTextFields />
+        <br />
+        <CustomPaginationActionsTable />
         {/* <Button variant="outlined" color="secondary">Hello World</Button> */}
       </header>
     </div>
