@@ -1,5 +1,6 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
+import MyButton from './Button';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -67,7 +68,8 @@ export default function ValidationTextFields() {
         />
         </div>
       </div>
-      <input type="submit" value="検索"></input>
+      <MyButton label="検索" />
+      {/* <input type="submit" value="検索"></input> */}
     </form>
   );
 }

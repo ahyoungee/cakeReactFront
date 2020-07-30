@@ -6,7 +6,7 @@ export interface Props {
 }
 
 function MyButton({label}:Props) {
-    return <Button color="primary">{label}</Button>;
+    return <Button variant="contained" color="primary">{label}</Button>;
 }
 
-export default MyButton;
+export default MyButton; 

@@ -9,7 +9,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
+        <h1>
+          申し込み一覧
+        </h1>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -22,11 +25,14 @@ function App() {
         >
           Learn React
         </a> */}
+
+        {/* <Button variant="outlined" color="secondary">Hello World</Button> */}
+      </header>
+      <body>
         <ValidationTextFields />
         <br />
         <CustomPaginationActionsTable />
-        {/* <Button variant="outlined" color="secondary">Hello World</Button> */}
-      </header>
+      </body>
     </div>
   );
 }
