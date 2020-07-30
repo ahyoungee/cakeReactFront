@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import { Button } from '@material-ui/core';
+import MyButton from './components/Button';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -17,7 +19,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <MyButton label='Hello'/>
+        {/* <Button variant="outlined" color="secondary">Hello World</Button> */}
       </header>
     </div>
   );
